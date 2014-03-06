@@ -11,12 +11,41 @@
 				height: 300px;
 				background: red;
 				position: relative;
-				/*animation-name: colors;
-				-webkit-animation-name: colors;
-				animation-duration: 5s;
-				-webkit-animation-duration: 5s;*/
 				animation: colors 5s;
 				-webkit-animation: colors 5s;
+				animation-iteration-count: infinite;
+				-webkit-animation-iteration-count: infinite;
+			}
+
+			.square2 {
+				width: 50px;
+				height: 50px;
+				background: red;
+				position: relative;
+				animation: colors 2s;
+				-webkit-animation: colors 2s;
+				animation-iteration-count: infinite;
+				-webkit-animation-iteration-count: infinite;
+			}
+
+			.square3 {
+				width: 100px;
+				height: 100px;
+				background: red;
+				position: relative;
+				animation: colors 3s;
+				-webkit-animation: colors 3s;
+				animation-iteration-count: infinite;
+				-webkit-animation-iteration-count: infinite;
+			}
+
+			.square4 {
+				width: 200px;
+				height: 200px;
+				background: red;
+				position: relative;
+				animation: colors 4s;
+				-webkit-animation: colors 4s;
 				animation-iteration-count: infinite;
 				-webkit-animation-iteration-count: infinite;
 			}
@@ -34,11 +63,15 @@
 				66% {background: rgb(0, 255, 0); left: 300px; top: 300px;} /*green*/
 				100% {background: rgb(255, 0, 0); left: 0px; top: 0px;} /*red*/
 			}
+
 		</style>
 	</head>
 
 	<body>
 		<div class="square"></div>
+		<div class="square2"></div>
+		<div class="square3"></div>
+		<div class="square4"></div>
 	</body>
 
 </html>
