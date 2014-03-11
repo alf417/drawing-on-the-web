@@ -15,6 +15,15 @@
 				-webkit-animation: colors 5s;
 				animation-iteration-count: infinite;
 				-webkit-animation-iteration-count: infinite;
+				transform-style: preserve-3d;
+				-webkit-transform-style: preserve-3d;
+				transition-property: transform;
+				transition-duration: 1s;
+			}
+
+			.square:active {
+				transform: rotateY(360deg);
+				-webkit-transform: rotateY(360deg);
 			}
 
 			.square2 {
@@ -26,6 +35,16 @@
 				-webkit-animation: colors 2s;
 				animation-iteration-count: infinite;
 				-webkit-animation-iteration-count: infinite;
+				transform-style: preserve-3d;
+				-webkit-transform-style: preserve-3d;
+				transition-property: transform;
+				transition-duration: 1s;
+			}
+			}
+
+			.square2:active{
+				transform: rotateY(360deg);
+				-webkit-transform: rotateY(360deg);
 			}
 
 			.square3 {
@@ -37,6 +56,15 @@
 				-webkit-animation: colors 3s;
 				animation-iteration-count: infinite;
 				-webkit-animation-iteration-count: infinite;
+				transform-style: preserve-3d;
+				-webkit-transform-style: preserve-3d;
+				transition-property: transform;
+				transition-duration: 1s;
+			}
+
+			.square3:active{
+				transform: rotateX(360deg);
+				-webkit-transform: rotateX(360deg);
 			}
 
 			.square4 {
@@ -48,7 +76,18 @@
 				-webkit-animation: colors 4s;
 				animation-iteration-count: infinite;
 				-webkit-animation-iteration-count: infinite;
+				transform-style: preserve-3d;
+				-webkit-transform-style: preserve-3d;
+				transition-property: transform;
+				transition-duration: 1s;
 			}
+
+			.square4:active{
+				transform: rotateX(360deg);
+				-webkit-transform: rotateX(360deg);
+			}
+
+
 
 			@keyframes colors {
 				0% {background: rgb(255, 0, 0); left: 0px; top: 0px;} /*red*/
@@ -63,6 +102,7 @@
 				66% {background: rgb(0, 255, 0); left: 300px; top: 300px;} /*green*/
 				100% {background: rgb(255, 0, 0); left: 0px; top: 0px;} /*red*/
 			}
+
 
 		</style>
 	</head>
